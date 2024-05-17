@@ -1,7 +1,7 @@
-# FarmFriend: Disease and Pest Detection
+# 🌿FarmFriend: Disease and Pest Detection🌿
 
 Welcome to the Farmer's Assistant project! This repository provides tools to detect diseases and pests in crops using a deep learning model built with PyTorch and a web application powered by Flask. The model is trained on a dataset from Kaggle.
-## DataSets
+## 🔖DataSets
 
 ```
 https://www.kaggle.com/datasets/shruthisindhura/pestopia
