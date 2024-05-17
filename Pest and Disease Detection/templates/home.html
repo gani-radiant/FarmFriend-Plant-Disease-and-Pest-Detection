@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% block pagetitle %}
+Plant Disease Detection
+{% endblock pagetitle %}
+{% block body %}
+<style>
+  body {
+    overflow-x: hidden;
+  }
+  @media only screen and (max-width: 830px) {
+    .laptop {
+      display: none;
+    }
+  }
+  @media (min-width: 830px) and (max-width: 1536px) {
+    .mobile {
+      display: none;
+    }
+  }
+  .copyright {
+    color:#FFFFFF;
+    background: #072A19;
+  }
+  .copyright a {
+    color: #FFFFFF;
+  }
+  .copyright a:hover {
+    color: #FFFFFF;
+  }
+</style>
+
+
+
+
+<div class="row p-5 laptop">
+  <div class="row mb-5 text-center text-white laptop">
+  <div class="col-lg-10 mx-auto">
+    <h1 class="display-4" style="padding-top: 2%; font-weight: 400; color: rgb(4, 54, 4);"><b>🌿Disease and Pest Detection🌿</b></h1>
+    <p class="lead" style="font-weight: 500; color: black;">Welcome to Farmfriend, your trusted partner in crop disease and pest management. At Farmfriend, we understand the challenges that farmers face in protecting their crops and maximizing yields. That's why we've developed an innovative solution harnessing the power of machine learning to assist farmers in diagnosing, treating, and preventing crop diseases and pest infestations.</p>
+    <h1 class="display-4" style="padding-top: 2%; font-weight: 400; color: rgb(4, 54, 4);"><b>🌿Our Mission🌿</b></h1>
+    <p class="lead" style="font-weight: 500; color: black;">Our mission at Farmfriend is to empower farmers with cutting-edge technology that simplifies crop health management. We aim to make precision agriculture accessible to all, ensuring farmers can make informed decisions to safeguard their livelihoods.</p>
+  </div>
+</div>
+</div>
+
+  <center class="laptop">
+  <a href="/index">
+    <button class="bttn-pill bttn-lg btn-success"><b style="color: black;">Disease and Pest Detector</b></button>
+  </a>
+</center>
+
+<div class="row p-5 laptop">
+  <div class="col">
+    <div class="p-3 bg-white shadow rounded-lg" style="width: 90%; height: 92%;">
+      <img src="https://images.pexels.com/photos/4765720/pexels-photo-4765720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="250" height="250">
+      <center><p class="lead" style="font-weight: 500; color: black;">HouseFly</p></center>
+    </div>
+  </div>
+  <div class="col">
+    <div class="p-3 bg-white shadow rounded-lg" style="width: 90%; height: 92%;">
+      <img src="https://images.pexels.com/photos/5083106/pexels-photo-5083106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="250" height="250">
+      <center><p class="lead" style="font-weight: 500; color: black;">Persulcatus</p></center>
+    </div>
+  </div>
+  <div class="col">
+    <div class="p-3 bg-white shadow rounded-lg" style="width: 90%; height: 92%;">
+      <img src="https://images.pexels.com/photos/760223/pexels-photo-760223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="250" height="250">
+      <center><p class="lead" style="font-weight: 500; color: black;">Trombidium holosericeum</p></center>
+    </div>
+  </div>
+  <div class="col">
+    <div class="p-3 bg-white shadow rounded-lg" style="width: 90%; height: 92%;">
+      <img src="https://images.pexels.com/photos/11019893/pexels-photo-11019893.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="250" height="250">
+      <center><p class="lead" style="font-weight: 500; color: black;">Ixodes ricinus</p></center>
+    </div>
+  </div>
+</div>
+
+
+
+
+<center class="laptop">
+  <div class="row p-5">
+    <div class="col">
+      <div class="p-3 bg-white shadow rounded-lg" style="width: 45%; height: 92%;">
+        <img src="https://images.pexels.com/photos/3757596/pexels-photo-3757596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="250" height="250">
+        <center><p class="lead" style="font-weight: 500; color: black;">Habronattus</p></center>
+      </div>
+    </div>
+    <div class="col">
+      <div class="p-3 bg-white shadow rounded-lg" style="width: 45%; height: 92%;">
+        <img src="https://images.pexels.com/photos/5350363/pexels-photo-5350363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="250" height="250">
+        <center><p class="lead" style="font-weight: 500; color: black;">Dysdercus cingulatus</p></center>
+      </div>
+    </div>
+  </div>
+</center>
+
+
+{% endblock body %}
