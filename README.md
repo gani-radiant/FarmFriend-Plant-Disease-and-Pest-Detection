@@ -57,8 +57,8 @@ Follow these steps to set up the project on your local machine:
 ![3](https://github.com/gani-radiant/FarmFriend-Plant-Disease-and-Pest-Detection/assets/91460621/6312d8f9-916b-4867-85dd-09d08f151386)
 ![4](https://github.com/gani-radiant/FarmFriend-Plant-Disease-and-Pest-Detection/assets/91460621/89ab280e-5fe1-4743-ba51-daf24fd3bdc7)
 
-##Execution
-
+## Execution
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fjZdLMYyyH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
