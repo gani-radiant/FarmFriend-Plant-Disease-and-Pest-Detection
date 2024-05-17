@@ -59,9 +59,10 @@ Follow these steps to set up the project on your local machine:
 
 ## Watch the Demo
 
-[![Watch the video](https://img.youtube.com/vi/If59Xybg0xU/maxresdefault.jpg)](https://www.youtube.com/watch?v=If59Xybg0xU&t=7s)
+[![Watch the video](https://img.youtube.com/vi/If59Xybg0xU/maxresdefault.jpg)](https://youtu.be/If59Xybg0xU?si=ve_n-5p8zSl9d19U)
 
 This is a demo video for our project. Click the image above to watch the video.
+
 
 
 
